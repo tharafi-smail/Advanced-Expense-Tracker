@@ -21,7 +21,7 @@ self.col = self.db["expenses"]
 "date": "YYYY-MM-DD"
 }
 ```
-![Description](mongodb.png)
+![Description](images/mongodb.png)
 
 ## Graphical User Interface: 
 built with Tkinter library and organized in frames:
