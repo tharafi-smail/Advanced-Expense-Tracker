@@ -34,7 +34,7 @@ from tkinter import ttk, messagebox, filedialog
 - Treeview Frame: to display stored expenses.
 - Bottom Frame: for export, graph generation, and total display.
 
-![Description](app.png)
+![Description](images/app.png)
 
 ## Expense Operations
 - add_expense(): collects data from input fields, validates it, and inserts a new document into MongoDB. using insert_one()
@@ -50,13 +50,13 @@ from tkinter import ttk, messagebox, filedialog
 ```python
 plt.plot(dates, amounts)
 ```
-![Description](plot.png)
+![Description](images/plot.png)
 
 # Graph by category:
 ```python
 plt.bar(cats, amounts)
 ```
-![Description](bar.png)
+![Description](images/bar.png)
 
 # Export CSV:
 ```python
@@ -64,5 +64,5 @@ with open(fpath, "w", newline='', encoding='utf-8') as f:
 writer = csv.writer(f)
 writer.writerow(["Description", "Amount", "Category", "Date"])
 ```
-![Description](csv.png)
+![Description](images/csv.png)
 
